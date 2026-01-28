@@ -1,7 +1,7 @@
 #Inheritance can be applied within classes too 
 #For example if I made a  class and want to make a new class with a new name,that would give error but if i use polymorphism
 #The new class made will have everthing that was in the previous class
-
+#Basically inheriting the properties of previous class
 class Employee:#parent CLASS
    def __init__(self,name,id):
      self.name=name
@@ -19,4 +19,5 @@ class Programmer(Employee):
 e1=Employee("Rohan Das",400)
 e1.showDetails()
 e2=Programmer("Harry",400)
+
 e2.showDetails()
